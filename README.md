@@ -1,2 +1,6 @@
 # STUDENT_INFO_MANAGEMENT
-A Java program to manage student information. Users can add, view, search, and delete students by ID. It uses classes, ArrayList, and methods to demonstrate basic object-oriented programming and provides a console-based interactive menu.
+This program is a menu-driven Student Management System that demonstrates the practical use of Object-Oriented Programming (OOP) and the Java Collections Framework. It is organized into three distinct parts: a Student class that models the data (ID, name, age, and course), a StudentManager class that handles the core logic, and a main driver class for user interaction.
+
+Unlike a standard fixed-length array, this system utilizes an ArrayList, which allows the storage to grow or shrink dynamically as students are added or removed. The StudentManager serves as the engine of the application, providing specialized methods to append new student objects, iterate through the list to display all records, and perform specific lookups or deletions by matching unique ID numbers.
+
+The user interface is built within a while(true) loop, creating a persistent command-line menu that keeps the program running until the user explicitly chooses to exit. It uses a switch statement to route user inputs to the appropriate management functions. By separating the data structure from the user input logic, the code follows a clean, modular design that is easy to maintain or expand—for instance, by adding features to update existing records or save the data to a file.
